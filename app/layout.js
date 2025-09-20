@@ -17,13 +17,13 @@ export const metadata = {
     description:
         "A growing force in the pharmaceutical world, built on trust, quality, and innovation. We craft medicines that combine scientific excellence with genuine care.",
     icons: {
-        icon: "/logo-small.jpg",
+        icon: "/favicon.ico",
     },
     keywords:
         "pharmaceutical, healthcare, medicines, antibiotics, CLAVAT 625, ESOMEROS 40, STAFENAC P, HISTAMAC M, STATORVA 10, Kerala, India",
     authors: [{ name: "Statheros Health Care Private Limited" }],
     creator: "Statheros Health Care Private Limited",
-    publisher: "Statheros Health Care Private Limited",
+    publisher: "Statheros Health Care Private Limited", 
     robots: "index, follow",
     openGraph: {
         type: "website",
