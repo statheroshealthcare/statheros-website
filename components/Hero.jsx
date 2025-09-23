@@ -14,14 +14,15 @@ export function Hero() {
                 <div className="grid lg:grid-cols-2 gap-8 lg:gap-10 items-center">
                     {/* Left Content */}
                     <div className="space-y-5 lg:space-y-7">
-                        <span className="inline-block px-4 py-2 bg-[#0c448d]/7 text-[#0c448d] rounded-full text-sm font-normal tracking-wide animate-zoom-in">
-                            Statheros Health Care Private Limited
+                        <span className="inline-block px-4 py-2 bg-[#0c448d]/7 text-[#0c448d] rounded-full 
+                        text-sm font-normal tracking-wide animate-zoom-in font-rubikDistressed">
+                            Statheros Health Care 
                         </span>
 
-                        <h1 className="text-3xl sm:text-4xl lg:text-5xl font-semibold leading-snug text-[#0c448d] text-balance animate-slide-up">
-                            Stabilize{" "}
+                        <h1 className="text-3xl sm:text-4xl lg:text-5xl capitalize font-semibold leading-snug text-[#0c448d] text-balance animate-slide-up">
+                              STABILIZE{" "}
                             <span className="text-[#038b8b] animate-pulse-fast">
-                                Health
+                                 HEALTH
                             </span>
                         </h1>
 

@@ -112,9 +112,9 @@ export function Products() {
 
                                     {/* Button */}
                                     <div className="mt-5">
-                                        <button className="px-5 py-2 rounded-full bg-gradient-to-r from-[#0c448d] to-[#038b8b] text-white text-sm font-semibold shadow-md hover:shadow-lg transition-all duration-300 hover:scale-105">
+                                        {/* <button className="px-5 py-2 rounded-full bg-gradient-to-r from-[#0c448d] to-[#038b8b] text-white text-sm font-semibold shadow-md hover:shadow-lg transition-all duration-300 hover:scale-105">
                                             Learn More
-                                        </button>
+                                        </button> */}
                                     </div>
                                 </div>
                             </div>
@@ -123,7 +123,7 @@ export function Products() {
                 </div>
 
                 {/* Section End Line */}
-                <div className="mt-16 text-center px-14" data-aos="fade-up">
+                <div className="mt-16 text-center px-0" data-aos="fade-up">
                     <div className="h-1 w-full bg-gradient-to-r from-[#0c448d] to-[#038b8b] rounded-full"></div>
                 </div>
             </div>
