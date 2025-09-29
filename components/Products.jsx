@@ -1,5 +1,6 @@
 import Image from "next/image";
 import { FaShieldAlt, FaHeart, FaRunning, FaBrain, FaCapsules } from "react-icons/fa";
+import RetryImage from "./RetryImage";
 
 export function Products() {
     const products = [
@@ -78,13 +79,29 @@ export function Products() {
                             >
                                 {/* Image */}
                                 <div className="relative">
-                                    <Image
-                                        src={`/${product.image}`}
+                                    {/* <Image
+                                        src={`/${product.image}`} 
                                         alt={product.name}
                                         width={500}
                                         height={350}
+                                        placeholder="blur"
+                                        blurDataURL="/pexels-tara-winstead-7722971.jpg" // blurred tiny image shown while loading
+                                        className="w-full h-52 object-cover group-hover:scale-105 transition-transform duration-500"
+                                    /> */}
+
+                                    <RetryImage
+                                        src={`/${product.image}`}
+                                        fallbackSrc="/pexels-tara-winstead-7722971.jpg"
+                                        alt={product.name} // make sure to pass descriptive alt
+                                        width={500}
+                                        height={350}
+                                        placeholder="blur"
+                                        blurDataURL="/pexels-tara-winstead-7722971.jpg"
+                                        retryDelay={3000} // retry every 5 seconds
+                                        maxRetries={10} // max retry attempts
                                         className="w-full h-52 object-cover group-hover:scale-105 transition-transform duration-500"
                                     />
+
                                     {/* Category Badge */}
                                     <div className="absolute top-4 left-4">
                                         <span className="px-3 py-1 bg-gradient-to-r from-[#0c448d] to-[#038b8b] text-white text-xs sm:text-sm rounded-full shadow-md">
