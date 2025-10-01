@@ -13,11 +13,10 @@ const geistMono = Geist_Mono({
 });
 
 const rubikDistressed = Rubik_Distressed({
-  variable: "--font-rubik-distressed", // CSS variable name
-  weight: "400",
-  subsets: ["latin"],
+    variable: "--font-rubik-distressed", // CSS variable name
+    weight: "400",
+    subsets: ["latin"],
 });
-
 
 export const metadata = {
     title: "Statheros Health Care",
@@ -30,7 +29,7 @@ export const metadata = {
         "pharmaceutical, healthcare, medicines, antibiotics, CLAVAT 625, ESOMEROS 40, STAFENAC P, HISTAMAC M, STATORVA 10, Kerala, India",
     authors: [{ name: "Statheros Health Care Private Limited" }],
     creator: "Statheros Health Care Private Limited",
-    publisher: "Statheros Health Care Private Limited", 
+    publisher: "Statheros Health Care Private Limited",
     robots: "index, follow",
     openGraph: {
         type: "website",
@@ -52,7 +51,9 @@ export const metadata = {
 export default function RootLayout({ children }) {
     return (
         <html lang="en">
-            <body className={`font-sans ${geistSans.variable} ${geistMono.variable} ${rubikDistressed.variable}  antialiased`}>
+            <body
+                className={`font-sans ${geistSans.variable} ${geistMono.variable} ${rubikDistressed.variable}  antialiased`}
+            >
                 <Suspense fallback={null}>{children}</Suspense>
             </body>
         </html>
