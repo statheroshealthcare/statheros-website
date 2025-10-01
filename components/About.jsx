@@ -29,7 +29,7 @@ export function About() {
               "From life-saving antibiotics to everyday wellness therapies, our portfolio reflects precision, reliability, and a vision to make people physically and mentally fit.",
               "Supported by strong values and steady growth, STATHEROS is not just about medicines—it’s about creating healthier tomorrows.",
             ].map((point, i) => (
-              <li key={i} className="flex items-start space-x-3 transform transition-transform duration-300 hover:translate-x-2">
+              <li key={i} className="flex items-start font-semibold space-x-3 transform transition-transform duration-300 hover:translate-x-2">
                 <FaCheckCircle className="w-5 h-5 text-[#038b8b] mt-1 flex-shrink-0" />
                 <span className="text-[#0c448d]/80 text-base leading-relaxed ">{point}</span>
               </li>
