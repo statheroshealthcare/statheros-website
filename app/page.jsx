@@ -13,7 +13,7 @@ export default function HomePage() {
     const [loading, setLoading] = useState(true);
 
     useEffect(() => {
-        const timer = setTimeout(() => setLoading(false), 1000); // simulate loading
+        const timer = setTimeout(() => setLoading(false), 3000); // simulate loading
         return () => clearTimeout(timer);
     }, []);
 
