@@ -25,7 +25,7 @@ export function Hero() {
                             STABILIZE <span className="text-[#038b8b] animate-pulse-fast">HEALTH</span>
                         </h1>
 
-                        <p className="text-base slabo font-sans sm:text-lg text-indigo-900/60 leading-relaxed text-pretty max-w-2xl animate-fade-in">
+                        <p className="text-base font-slabo font-sans sm:text-lg text-indigo-900/60 leading-relaxed text-pretty max-w-2xl animate-fade-in text-justify sm:text-left">
                             A growing force in the pharmaceutical world, built on trust, quality, and innovation. We craft
                             medicines that combine scientific excellence with genuine care.
                         </p>

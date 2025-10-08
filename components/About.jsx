@@ -68,7 +68,7 @@ export function About() {
                             </div>
                             <div>
                                 <h4 className="font-semibold text-[#0c448d] text-xl mb-2">Our Vision</h4>
-                                <p className="text-[#0c448d]/70 text-base leading-relaxed">
+                                <p className="text-[#0c448d]/70 text-base leading-relaxed text-justify">
                                     To ensure comprehensive healthcare for every life through limitless innovative
                                     solutions.
                                 </p>
@@ -88,7 +88,7 @@ export function About() {
                             </div>
                             <div>
                                 <h4 className="font-semibold text-[#0c448d] text-xl mb-2">Our Mission</h4>
-                                <p className="text-[#0c448d]/70 text-base leading-relaxed">
+                                <p className="text-[#0c448d]/70 text-base leading-relaxed text-justify text-pretty">
                                     At Statheros, our mission is to stabilize health and enhance life by delivering safe,
                                     effective, and affordable medicines with uncompromising quality.
                                 </p>

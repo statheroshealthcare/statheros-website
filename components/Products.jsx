@@ -123,7 +123,7 @@ export function Products() {
                                     <p className="text-sm sm:text-base text-[#0c448d]/70 font-medium mt-1">
                                         {product.composition}
                                     </p>
-                                    <p className="mt-3 text-sm sm:text-base text-[#0c448d]/80 line-clamp-3">
+                                    <p className="mt-3 text-sm sm:text-base text-[#0c448d]/80 line-clamp-3 text-justify">
                                         {product.description}
                                     </p>
 
