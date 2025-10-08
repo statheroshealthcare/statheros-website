@@ -1,4 +1,4 @@
-import { Geist, Geist_Mono, Rubik_Distressed } from "next/font/google";
+import { Geist, Geist_Mono, Rubik_Distressed, Slabo_27px } from "next/font/google";
 import "./globals.css";
 import { Suspense } from "react";
 
@@ -16,6 +16,12 @@ const rubikDistressed = Rubik_Distressed({
     variable: "--font-rubik-distressed", // CSS variable name
     weight: "400",
     subsets: ["latin"],
+});
+
+const slabo27 = Slabo_27px({
+    variable: "--font-slabo-27px",
+    subsets: ["latin"],
+    weight: "400", // Slabo 27px only has 400 weight
 });
 
 export const metadata = {
@@ -52,7 +58,7 @@ export default function RootLayout({ children }) {
     return (
         <html lang="en">
             <body
-                className={`font-sans ${geistSans.variable} ${geistMono.variable} ${rubikDistressed.variable}  antialiased`}
+                className={`font-sans ${geistSans.variable} ${geistMono.variable} ${slabo27.variable}  antialiased`}
             >
                 <Suspense fallback={null}>{children}</Suspense>
             </body>
