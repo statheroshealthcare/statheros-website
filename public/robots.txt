@@ -1,4 +1,9 @@
+# *
 User-agent: *
 Allow: /
 
+# Host
+Host: https://www.statheroshealthcare.com
+
+# Sitemaps
 Sitemap: https://www.statheroshealthcare.com/sitemap.xml
