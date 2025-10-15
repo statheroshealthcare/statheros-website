@@ -13,7 +13,7 @@ const geistMono = Geist_Mono({
 });
 
 const rubikDistressed = Rubik_Distressed({
-    variable: "--font-rubik-distressed", // CSS variable name
+    variable: "--font-rubik-distressed",
     weight: "400",
     subsets: ["latin"],
 });
@@ -21,7 +21,7 @@ const rubikDistressed = Rubik_Distressed({
 const slabo27 = Slabo_27px({
     variable: "--font-slabo-27px",
     subsets: ["latin"],
-    weight: "400", // Slabo 27px only has 400 weight
+    weight: "400",
 });
 
 export const metadata = {
@@ -40,7 +40,7 @@ export const metadata = {
     openGraph: {
         type: "website",
         locale: "en_US",
-        url: "https://statheroshealthcare.com",
+        url: "https://www.statheroshealthcare.com",
         title: "Statheros Health Care - Stabilizing Health",
         description:
             "A growing force in the pharmaceutical world, built on trust, quality, and innovation. We craft medicines that combine scientific excellence with genuine care.",
@@ -57,6 +57,10 @@ export const metadata = {
 export default function RootLayout({ children }) {
     return (
         <html lang="en">
+            <head>
+                {/* Canonical tag */}
+                <link rel="canonical" href="https://www.statheroshealthcare.com/" />
+            </head>
             <body
                 className={`font-sans ${geistSans.variable} ${geistMono.variable} ${slabo27.variable}  antialiased`}
             >
